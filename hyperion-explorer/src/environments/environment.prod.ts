@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
-  eosioNodeUrl: 'https://mainnet.telos.net',
-  hyperionApiUrl: 'https://mainnet.telos.net',
+  eosioNodeUrl: 'https://rpc1.us.telos.net',
+  hyperionApiUrl: 'https://rpc1.us.telos.net',
   systemContract: 'eosio',
   userResourcesTable: 'userres'
 };
