@@ -1,0 +1,4 @@
+[build]
+  base = "hyperion-explorer"
+  publish = "../dist"
+  command = "npm build:prod"
