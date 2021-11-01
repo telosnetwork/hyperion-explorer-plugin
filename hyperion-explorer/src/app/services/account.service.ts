@@ -110,13 +110,16 @@ export class AccountService {
   }
 
   getServerUrl(): void {
+    /*
     let server;
     if (environment.production) {
       server = window.location.origin;
     } else {
       server = environment.hyperionApiUrl;
     }
-    this.server = server;
+     */
+  this.server = environment.hyperionApiUrl;
+  // this.server = server;
   }
 
   async updateLib(): Promise<void> {
