@@ -2,3 +2,9 @@
   base = "hyperion-explorer"
   publish = "../dist"
   command = "npm run build:prod"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
